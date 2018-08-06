@@ -1,0 +1,98 @@
+body{
+	background-color: #ffffff;
+}
+.outer{
+    width: 100%;
+    height: 100%;
+}
+.head-bc{
+	background: url("../img/xin1.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.headfont{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 45px;
+	color: rgba(255,255,255,0.5);
+	margin-top: 20px;
+	float: left;
+}
+.titlefont{
+	font-style: oblique;
+	float: right;
+	color: #b5b5b5;
+	margin-top: 50px;
+	font-size: 15px;
+}
+.border{
+	margin: 50px 0px;
+	border-left-style: solid;
+	border-right-style: solid;
+	border-width: 1px;
+	border-color: #e9e9e9;
+}
+img{
+	width: 100%;
+	margin: 10px 0px;
+}
+p{
+	margin: 10px 0px;
+	font-size: 16px;
+}
+.like{
+	width: 100%;
+}
+h4{
+	margin-left: 10px;
+	font-weight: bold; 
+}
+.ourcode{
+	width: 54px;
+    height: 54px;
+    bottom: 225px;
+    right: 25px;
+    position: fixed;
+}
+.ourcode a img{
+	width: 54px;
+    height: 54px;
+}
+#gotop{
+	overflow: hidden;
+	width: 54px;
+    height: 54px;
+    cursor: pointer;
+    bottom: 140px;
+    right: 25px;
+    position: fixed;
+    background: url(../img/goTop.png) 100% 0% no-repeat;
+}
+#gotop:hover{
+    background: url(../img/goTop.png) no-repeat;
+}
+.footer{
+	width: 50%;
+	margin: 20px auto;
+	margin-top: 40px;
+	text-align: center;
+	color: #a5a5a5;
+}
+textarea{
+	padding: 10px;
+	font-size: 17px;
+	width: 100%;
+	height: 200px;
+	border-radius: 5%;
+	border-bottom-right-radius: 0%;
+	border-style: dotted;
+	border-color: #4545d9;
+}
+input{
+	font-size: 18px;
+	float: right;
+	margin: 10px auto;
+	border-radius: 10%;
+	border-style: solid;
+	border-color: #4545d9;
+	background-color: #4545d9;
+}

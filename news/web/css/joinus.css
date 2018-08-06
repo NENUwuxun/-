@@ -1,0 +1,23 @@
+body{
+    background: url("../img/cao3.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.demojoin{
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.2);
+}
+.main{
+    margin: 325px auto;
+}
+.main p{
+    text-align: center;
+    font-size: 50px;
+    font-style: oblique;
+    color: #ed5d14;
+}
+.main a{
+    float:right;
+    font-size: 20px;
+    color: #0000e9;
+}

@@ -1,0 +1,113 @@
+body{
+    background: url("../img/xin2.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.outer{
+    width: 100%;
+    background: rgba(255,255,255,0.2);
+}
+.aboutus h3{
+	font-size: 14px;
+	color: #ffffff;
+	margin: 25px 5px;
+	float: left;
+}
+.headfont{
+	font-style:oblique;
+	font-weight: bold;
+	font-size: 100px;
+	color: rgba(255,255,255,0.5);
+	margin-top: 50px;
+}
+.titlefont{
+	font-style:oblique;
+	color: #b5b5b5;
+	margin-top: 130px;
+	font-size: 20px;
+}
+.form{
+	background: rgba(255,255,255,0.7);
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 10%;
+}
+.formlist{
+	width: 100%;
+	font-size: 20px;
+}
+.formlist a{
+	width: 100%;
+	background-color: #565656;
+}
+.forminputout{
+	width: 100%;
+}
+.forminput{
+	position: relative;
+	width: 80%;
+	margin: 20px auto;
+}
+.forminput label{
+	padding: 10px 10px;
+	text-align: center;
+	font-size: 20px;
+}
+.forminput a{
+	float: right;
+	margin-top: 40px;
+}
+.forminputdiv{
+	float: right;
+	margin-right: 35px;
+	width: 60%;
+	height: 40px;
+	border-width: 1px;
+	background-color: #ffffff;
+	border-style: solid;
+	border-radius: 4em;
+}
+.forminputdiv input{
+	margin: 1px 13px;
+	width: 85%;
+	height: 90%;
+	border-width: 0px;
+	font-size: 20px;
+}
+.forminput-input{
+	border-radius: 4em;
+	border-color: #3588ff;
+	border-width: 1px;
+	border-style: solid;
+	width: 60%;
+	height: 50px;
+	margin: 10px 0px 10px 25%;
+	background-color: #3588ff;
+	font-size: 20px;
+	color: #ffffff;
+}
+.worning{
+	position: absolute;
+	top: -20px;
+	margin-left: 100px;
+	color: #ff0000;
+	background: url('../img/error.png') no-repeat;
+	display: none;
+}
+.worning p{
+	line-height: 20px;
+	margin: 0px;
+	margin-left: 20px;
+}
+#check1{
+	margin-left: 100px;
+}
+.labelremenber{
+	margin: 0px;
+}
+.footer{
+	width: 50%;
+	margin: 55px auto;
+	margin-top: 65px;
+	text-align: center;
+	color: #d5d5d5;
+}
